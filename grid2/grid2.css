@@ -36,3 +36,12 @@ grid-row: 2 /3;
     grid-column: 1 / -1;
     grid-row: 3/4;
 }
+/* Responsive styles */
+@media screen and (max-width:576px) {
+    .container{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     height: 100%;
+    }
+ }
